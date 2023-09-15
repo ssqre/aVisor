@@ -9,7 +9,7 @@ cd aVisor
 - **[echo](https://github.com/calinyara/avisor/tree/main/guests/echo)**:  A baremetal binary that echoes keyboard input.
 - **[lrtos](https://github.com/calinyara/avisor/tree/main/guests/lrtos)**:  A miniature operating system that runs two user mode processes after startup, one prints "12345" and the other prints "abcde". The lrtos kernel supports the process scheduling.
 - **[uboot](https://github.com/u-boot/u-boot)**: The standard Das U-Boot Bootloader.
-
+- **FreeRTOS**: The FreeRTOS VM runs two tasks, one prints "12345" and the other prints "ABCDE". The tasks are scheduled by FreeRTOS.
 
 ```
 help			// Print the help
